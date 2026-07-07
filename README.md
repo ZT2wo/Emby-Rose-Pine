@@ -16,15 +16,15 @@
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-pine.png" />
+<img width="800" alt="Rosé Pine with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-pine.png" />
 
 ### Rosé Pine Moon
 
-<img width="256" alt="Rosé Pine Moon with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-moon.png" />
+<img width="800" alt="Rosé Pine Moon with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-moon.png" />
 
 ### Rosé Pine Dawn
 
-<img width="256" alt="Rosé Pine Dawn with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-dawn.png" />
+<img width="800" alt="Rosé Pine Dawn with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-dawn.png" />
 
 ## Thanks to
 
