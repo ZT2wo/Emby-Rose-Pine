@@ -42,7 +42,6 @@
             --theme-text-color-saturation: 50%;
             --theme-text-color-lightness: 91%;
         }
-
         .accent-emby:root {
             /* hsl(2deg 55% 83%) $rose */
             --theme-primary-color-hue: 2;
@@ -50,7 +49,6 @@
             --theme-primary-color-lightness: 83%;
             /* hsl(2deg 55% 83%) $rose */
         }
-
         @media (pointer: fine) {
             :root {
                 /* hsl(249deg 22% 12%) $base */
@@ -68,7 +66,6 @@
             }
         }
     }
-
     else if palette==moon {
         :root {
             /* Rose Pine Moon Palette */
@@ -102,14 +99,12 @@
             --theme-text-color-saturation: 50%;
             --theme-text-color-lightness: 91%;
         }
-
         .accent-emby:root {
             /* hsl(2deg 66% 75%) $rose */
             --theme-primary-color-hue: 2;
             --theme-primary-color-saturation: 66%;
             --theme-primary-color-lightness: 75%;
         }
-
         @media (pointer: fine) {
             :root {
                 /* hsl(246deg 24% 17%) $base */
@@ -127,7 +122,6 @@
             }
         }
     }
-
     else if palette==dawn {
         :root {
             /* Rose Pine Dawn Palette */
@@ -161,14 +155,12 @@
             --theme-text-color-saturation: 19%;
             --theme-text-color-lightness: 32%;
         }
-
         .accent-emby:root {
             /* hsl(2deg 55% 67%) $rose */
             --theme-primary-color-hue: 2;
             --theme-primary-color-saturation: 55%;
             --theme-primary-color-lightness: 67%;
         }
-
         @media (pointer: fine) {
             :root {
                 /* hsl(32deg 57% 95%) $base */
@@ -186,11 +178,9 @@
             }
         }
     }
-
     :root {
         --header-background: var(--color-overlay)
     }
-
     .accent-emby:root {
         --theme-accent-text-color-darkbg: var(--color-rose);
     }
@@ -204,15 +194,12 @@
     .countIndicator {
         color: var(--color-surface);
     }
-
     .cardOverlayContainer {
         background: var(--color-rose-a);
     }
-
     .button-hoveraccent:hover {
         color: var(--color-surface)
     }
-
     .ratingbutton-icon-withrating {
         color: var(--color-iris)
     }
@@ -226,16 +213,13 @@
     .mdl-spinner__layer-1 {
         border-color: var(--color-rose);
     }
-
     .pageTitleWithDefaultLogo,
     .app-splash {
         filter: saturate(0%);
     }
-
     .md-icon {
         color: var(--color-rose)
     }
-
     .emby-scrollbuttons-scrollbutton {
         background: var(--color-surface) !important;
     }
@@ -244,11 +228,9 @@
     .emby-slider-background {
         background: var(--color-subtle);
     }
-
     .emby-slider-background-lower {
         background: var(--color-rose);
     }
-
     .emby-slider-thumb {
         background: var(--color-text);
     }
@@ -262,7 +244,6 @@
     .tabs-viewmenubar-backgroundcontainer {
         background: var(--color-overlay);
     }
-
     .emby-tab-button-active {
         color: var(--color-surface);
         background: var(--color-rose);
@@ -272,19 +253,15 @@
     .headerCastButton {
         color: var(--color-foam);
     }
-
     .headerSearchButton {
         color: var(--color-gold);
     }
-
     .headerUserButton {
         color: var(--color-iris);
     }
-
     .headerSettingsButton {
         color: var(--color-love);
     }
-
     .app-splash-container {
         background-color: var(--color-base);
     }
