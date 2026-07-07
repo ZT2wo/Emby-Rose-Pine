@@ -1,40 +1,37 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Emby</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Install a css injector such as [Stylus](https://github.com/openstyles/stylus)
+2. Open the raw emby-rose-pine.css under 'dist' or click [here](https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/dist/emby-rose-pine.css)
+3. With stylus installed it should prompt you to install the userstyle
+4. If not prompted, download the css file and manually install it by drag and dropping into the manage panel of stylus
 
 ## Gallery
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
+<img width="256" alt="Rosé Pine with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-pine.png" />
 
 ### Rosé Pine Moon
 
-<img width="256" alt="Rosé Pine Moon with App" src="https://github.com/user-attachments/assets/0acf279b-492c-4d75-acba-9de1d6cc8fcb" />
+<img width="256" alt="Rosé Pine Moon with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-moon.png" />
 
 ### Rosé Pine Dawn
 
-<img width="256" alt="Rosé Pine Dawn with App" src="https://github.com/user-attachments/assets/fb1b1d16-55e8-45db-b388-7c25250b8022" />
+<img width="256" alt="Rosé Pine Dawn with Emby" src="https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/img/emby-dawn.png" />
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [ZT2wo](https://github.com/ZT2wo)
 
 ## Contributing
 
-<!-- BLOOM_BUILD_START -->
-This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
+Use stylus to make edits then paste your changes back into a local copy to push your changes.
+You can setup a fully local environment, more info [here](https://github.com/openstyles/stylus/wiki/Writing-UserCSS#live-reload-on-the-fly-previewingwhen-developing-styles-locally-in-another-editoride), but the stylus editor is decent and easy.
 
-```sh
-bloom build template.yaml --output dist --prefix $ --format hex
-```
-<!-- BLOOM_BUILD_END -->
