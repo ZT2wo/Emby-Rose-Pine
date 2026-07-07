@@ -1,0 +1,290 @@
+/* ==UserStyle==
+@name           emby.media - 7/5/2026, 5:49:57 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Rose Pine for Emby
+@author         ZT2wo
+@preprocessor stylus
+@var select palette "Palette Scheme" ["pine:Rose Pine", "moon:Rose Pine Moon", "dawn:Rose Pine Dawn"]
+==/UserStyle== */
+@-moz-document domain("emby.media") {
+    if palette==pine {
+        :root {
+            /* Rose Pine Palette */
+            --color-base: hsl(249deg 22% 12%);
+            --color-surface: hsl(247deg 23% 15%);
+            --color-overlay: hsl(245deg 25% 18%);
+            --color-muted: hsl(249deg 12% 47%);
+            --color-subtle: hsl(248deg 15% 61%);
+            --color-text: hsl(245deg 50% 91%);
+            --color-love: hsl(343deg 76% 68%);
+            --color-gold: hsl(35deg 88% 72%);
+            --color-rose: hsl(2deg 55% 83%);
+            --color-rose-a: hsla(2deg 55% 83% .2);
+            --color-pine: hsl(197deg 49% 38%);
+            --color-foam: hsl(189deg 43% 73%);
+            --color-iris: hsl(267deg 57% 78%);
+            --color-highlight-low: hsl(244deg 18% 15%);
+            --color-highlight-med: hsl(249deg 15% 28%);
+            --color-highlight-high: hsl(248deg 13% 36%);
+
+            /* hsl(249deg 22% 12%) $base */
+            --background-hue: 249;
+            --background-saturation: 22%;
+            --background-lightness: 12%;
+            /* hsl(2deg 55% 83%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 55%;
+            --theme-primary-color-lightness: 83%;
+            /* hsl(245deg 50% 91%) $text*/
+            --theme-text-color-hue: 245;
+            --theme-text-color-saturation: 50%;
+            --theme-text-color-lightness: 91%;
+        }
+
+        .accent-emby:root {
+            /* hsl(2deg 55% 83%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 55%;
+            --theme-primary-color-lightness: 83%;
+            /* hsl(2deg 55% 83%) $rose */
+        }
+
+        @media (pointer: fine) {
+            :root {
+                /* hsl(249deg 22% 12%) $base */
+                --background-hue: 249;
+                --background-saturation: 22%;
+                --background-lightness: 12%;
+                /* hsl(2deg 55% 83%) $rose */
+                --theme-primary-color-hue: 2;
+                --theme-primary-color-saturation: 55%;
+                --theme-primary-color-lightness: 83%;
+                /* hsl(249deg 15% 28%) $color-highlight-med */
+                --button-background-hue: 249;
+                --button-background-saturation: 15%;
+                --button-background-lightness: 28%;
+            }
+        }
+    }
+
+    else if palette==moon {
+        :root {
+            /* Rose Pine Moon Palette */
+            --color-base: hsl(246deg 24% 17%);
+            --color-surface: hsl(248deg 24% 20%);
+            --color-overlay: hsl(248deg 21% 26%);
+            --color-muted: hsl(249deg 12% 47%);
+            --color-subtle: hsl(248deg 15% 61%);
+            --color-text: hsl(245deg 50% 91%);
+            --color-love: hsl(343deg 76% 68%);
+            --color-gold: hsl(35deg 88% 72%);
+            --color-rose: hsl(2deg 66% 75%);
+            --color-rose-a: hsl(2deg 66% 75% .2);
+            --color-pine: hsl(197deg 48% 47%);
+            --color-foam: hsl(189deg 43% 73%);
+            --color-iris: hsl(267deg 57% 78%);
+            --color-highlight-low: hsl(245deg 22% 20%);
+            --color-highlight-med: hsl(247deg 16% 30%);
+            --color-highlight-high: hsl(249deg 15% 38%);
+
+            /* hsl(246deg 24% 17%) $base */
+            --background-hue: 246;
+            --background-saturation: 24%;
+            --background-lightness: 17%;
+            /* hsl(2deg 66% 75%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 66%;
+            --theme-primary-color-lightness: 75%;
+            /* hsl(245deg 50% 91%) $text*/
+            --theme-text-color-hue: 245;
+            --theme-text-color-saturation: 50%;
+            --theme-text-color-lightness: 91%;
+        }
+
+        .accent-emby:root {
+            /* hsl(2deg 66% 75%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 66%;
+            --theme-primary-color-lightness: 75%;
+        }
+
+        @media (pointer: fine) {
+            :root {
+                /* hsl(246deg 24% 17%) $base */
+                --background-hue: 246;
+                --background-saturation: 24%;
+                --background-lightness: 17%;
+                /* hsl(2deg 66% 75%) $rose */
+                --theme-primary-color-hue: 2;
+                --theme-primary-color-saturation: 66%;
+                --theme-primary-color-lightness: 75%;
+                /* hsl(247deg 16% 30%) $color-highlight-med */
+                --button-background-hue: 247;
+                --button-background-saturation: 16%;
+                --button-background-lightness: 30%;
+            }
+        }
+    }
+
+    else if palette==dawn {
+        :root {
+            /* Rose Pine Dawn Palette */
+            --color-base: hsl(32deg 57% 95%);
+            --color-surface: hsl(35deg 100% 98%);
+            --color-overlay: hsl(25deg 36% 92%);
+            --color-muted: hsl(254deg 9% 61%);
+            --color-subtle: hsl(249deg 13% 52%);
+            --color-text: hsl(248deg 19% 32%);
+            --color-love: hsl(343deg 35% 55%);
+            --color-gold: hsl(35deg 81% 56%);
+            --color-rose: hsl(2deg 55% 67%);
+            --color-rose-a: hsl(2deg 55% 67% .2);
+            --color-pine: hsl(197deg 53% 34%);
+            --color-foam: hsl(189deg 30% 48%);
+            --color-iris: hsl(267deg 22% 57%);
+            --color-highlight-low: hsl(25deg 35% 93%);
+            --color-highlight-med: hsl(10deg 9% 86%);
+            --color-highlight-high: hsl(315deg 4% 80%);
+
+            /* hsl(32deg 57% 95%) $base */
+            --background-hue: 32;
+            --background-saturation: 57%;
+            --background-lightness: 95%;
+            /* hsl(2deg 55% 67%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 55%;
+            --theme-primary-color-lightness: 67%;
+            /* hsl(248deg 19% 32%) $text*/
+            --theme-text-color-hue: 248;
+            --theme-text-color-saturation: 19%;
+            --theme-text-color-lightness: 32%;
+        }
+
+        .accent-emby:root {
+            /* hsl(2deg 55% 67%) $rose */
+            --theme-primary-color-hue: 2;
+            --theme-primary-color-saturation: 55%;
+            --theme-primary-color-lightness: 67%;
+        }
+
+        @media (pointer: fine) {
+            :root {
+                /* hsl(32deg 57% 95%) $base */
+                --background-hue: 32;
+                --background-saturation: 57%;
+                --background-lightness: 95%;
+                /* hsl(2deg 55% 67%) $rose */
+                --theme-primary-color-hue: 2;
+                --theme-primary-color-saturation: 55%;
+                --theme-primary-color-lightness: 67%;
+                /* hsl(10deg 9% 86%) $color-highlight-med */
+                --button-background-hue: 10;
+                --button-background-saturation: 9%;
+                --button-background-lightness: 86%;
+            }
+        }
+    }
+
+    :root {
+        --header-background: var(--color-overlay)
+    }
+
+    .accent-emby:root {
+        --theme-accent-text-color-darkbg: var(--color-rose);
+    }
+
+    /*Media View*/
+    .itemBackgroundContainer.withBackdrop {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.82) 0%, var(--color-base) 99%);
+    }
+
+    /*Media Items*/
+    .countIndicator {
+        color: var(--color-surface);
+    }
+
+    .cardOverlayContainer {
+        background: var(--color-rose-a);
+    }
+
+    .button-hoveraccent:hover {
+        color: var(--color-surface)
+    }
+
+    .ratingbutton-icon-withrating {
+        color: var(--color-iris)
+    }
+
+    /*Nav Bar*/
+    .navMenuOption-selected .listItem-content {
+        color: var(--color-surface);
+    }
+
+    /*Misc Changes*/
+    .mdl-spinner__layer-1 {
+        border-color: var(--color-rose);
+    }
+
+    .pageTitleWithDefaultLogo,
+    .app-splash {
+        filter: saturate(0%);
+    }
+
+    .md-icon {
+        color: var(--color-rose)
+    }
+
+    .emby-scrollbuttons-scrollbutton {
+        background: var(--color-surface) !important;
+    }
+
+    /*Player*/
+    .emby-slider-background {
+        background: var(--color-subtle);
+    }
+
+    .emby-slider-background-lower {
+        background: var(--color-rose);
+    }
+
+    .emby-slider-thumb {
+        background: var(--color-text);
+    }
+
+    /*Dialogs*/
+    .dialog {
+        background-color: var(--color-surface);
+    }
+
+    /*Tabs Top Bar*/
+    .tabs-viewmenubar-backgroundcontainer {
+        background: var(--color-overlay);
+    }
+
+    .emby-tab-button-active {
+        color: var(--color-surface);
+        background: var(--color-rose);
+    }
+
+    /*Right Header Buttons*/
+    .headerCastButton {
+        color: var(--color-foam);
+    }
+
+    .headerSearchButton {
+        color: var(--color-gold);
+    }
+
+    .headerUserButton {
+        color: var(--color-iris);
+    }
+
+    .headerSettingsButton {
+        color: var(--color-love);
+    }
+
+    .app-splash-container {
+        background-color: var(--color-base);
+    }
+}
