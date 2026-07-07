@@ -1,11 +1,12 @@
 /* ==UserStyle==
-@name           emby.media - 7/5/2026, 5:49:57 PM
-@namespace      github.com/openstyles/stylus
+@name           Emby Rose Pine
+@namespace      https://github.com/ZT2wo/Emby-Rose-Pine
 @version        1.0.0
 @description    Rose Pine for Emby
 @author         ZT2wo
 @preprocessor stylus
 @var select palette "Palette Scheme" ["pine:Rose Pine", "moon:Rose Pine Moon", "dawn:Rose Pine Dawn"]
+@updateURL https://github.com/ZT2wo/Emby-Rose-Pine/blob/main/dist/emby-rose-pine.css
 ==/UserStyle== */
 @-moz-document domain("emby.media") {
     if palette==pine {
