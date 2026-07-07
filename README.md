@@ -7,7 +7,7 @@
 
 ## Usage
 
-1. Install a css injector such as [Stylus](https://github.com/openstyles/stylus)
+1. Install a css injector such as [Stylus](https://github.com/openstyles/stylus) or [others](https://github.com/openstyles/stylus/wiki/Stylish-alternatives)
 2. Open the raw emby-rose-pine.css under 'dist' or click [here](https://raw.githubusercontent.com/ZT2wo/Emby-Rose-Pine/refs/heads/main/dist/emby-rose-pine.css)
 3. With stylus installed it should prompt you to install the userstyle
 4. If not prompted, download the css file and manually install it by drag and dropping into the manage panel of stylus
