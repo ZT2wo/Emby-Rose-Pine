@@ -78,7 +78,7 @@
             --color-love: hsl(343deg 76% 68%);
             --color-gold: hsl(35deg 88% 72%);
             --color-rose: hsl(2deg 66% 75%);
-            --color-rose-a: hsl(2deg 66% 75% .2);
+            --color-rose-a: hsla(2deg 66% 75% .2);
             --color-pine: hsl(197deg 48% 47%);
             --color-foam: hsl(189deg 43% 73%);
             --color-iris: hsl(267deg 57% 78%);
@@ -134,7 +134,7 @@
             --color-love: hsl(343deg 35% 55%);
             --color-gold: hsl(35deg 81% 56%);
             --color-rose: hsl(2deg 55% 67%);
-            --color-rose-a: hsl(2deg 55% 67% .2);
+            --color-rose-a: hsla(2deg 55% 67% .2);
             --color-pine: hsl(197deg 53% 34%);
             --color-foam: hsl(189deg 30% 48%);
             --color-iris: hsl(267deg 22% 57%);
